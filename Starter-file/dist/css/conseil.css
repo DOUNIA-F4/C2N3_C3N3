@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -33,10 +34,10 @@ nav .nav__list a img {
   margin-left: 10px; }
 
 nav .nav__list .nav__list--Accueil {
-  color: #1A519E; }
+  color: #2B2B2C; }
 
 nav .nav__list .nav__list--Conseil {
-  color: #2B2B2C; }
+  color: #1A519E; }
 
 nav .nav__list .nav__list--button {
   border: 1.2px solid #1A519E;
@@ -48,6 +49,89 @@ nav .nav__list .nav__list--button img {
   max-width: 19px;
   min-height: 20px; }
 
+.protéger {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #1A519E;
+  padding-bottom: 50px; }
+
+.protéger__title {
+  grid-column: 1/4;
+  padding-top: 25px; }
+
+.protéger__title h2 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #1078AD; }
+
+.protéger__house {
+  grid-column: 1/4; }
+
+.protéger__hands {
+  padding-top: 35px; }
+
+.protéger__mask {
+  padding-top: 10px; }
+
+.protéger__mouth {
+  padding-top: 5px; }
+
+.info {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 30px 0 55px 0;
+  background-color: #D0E5F0; }
+
+.info__title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1078AD; }
+
+.info__title p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1A519E; }
+
+.info__website {
+  padding-top: 65px; }
+
+.info__website button {
+  background-color: #1078AD;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 15px;
+  cursor: pointer; }
+
+.info__website button:hover {
+  background-color: #479ec9; }
+
+.info__button {
+  padding-top: 65px; }
+
+.info__button button {
+  background-color: #1078AD;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 48px;
+  cursor: pointer; }
+
+.info__button button:hover {
+  background-color: #479ec9; }
+
 .post {
   background-color: #F4CF1B;
   text-align: center;
@@ -58,44 +142,9 @@ nav .nav__list .nav__list--button img {
   font-weight: 600;
   line-height: 25px; }
 
-header {
-  display: flex;
-  justify-content: center; }
-
-header .header__bg {
-  padding: 20px; }
-
-header .header__content {
-  padding: 20px;
-  text-align: center; }
-
-header .header__content h2 {
-  font-size: 30px;
-  line-height: 39px; }
-
-header .header__content p {
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 49px;
-  color: #7F7F7F;
-  margin-bottom: 10px; }
-
-header .header__content button {
-  background-color: #1078AD;
-  border: none;
-  border-radius: 6px;
-  color: white;
-  width: 100%;
-  font-size: 32px;
-  font-weight: bold; }
-
-header .header__content button:hover {
-  background-color: #479ec9; }
-
 .symptome__para {
   text-align: center;
   font-size: 2rem;
-  margin-top: 5%;
   color: #1078AD; }
 
 .symptome__container {
@@ -124,6 +173,32 @@ header .header__content button:hover {
 
 .caption {
   display: block; }
+
+.CO19 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 49px;
+  color: #1A519E;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 100px; }
+
+.CO19__title {
+  grid-column: 1/3;
+  padding: 40px 0 80px 0; }
+
+.CO19__title h2 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #1078AD; }
+
+.CO19__group img {
+  width: 150px;
+  height: 140px; }
 
 .recommand {
   background-color: #1078AD;
