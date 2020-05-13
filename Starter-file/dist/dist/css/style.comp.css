@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif;
-  background-color: 0; }
+  font-family: 'Cairo', sans-serif; }
 
 nav {
   background-color: #7dcff5;
@@ -48,6 +47,83 @@ nav .nav__list .nav__list--button {
 nav .nav__list .nav__list--button img {
   max-width: 19px;
   min-height: 20px; }
+
+.post {
+  background-color: #F4CF1B;
+  text-align: center;
+  padding: 10px 30%; }
+
+.post p {
+  color: #1078AD;
+  font-weight: 600;
+  line-height: 25px; }
+
+header {
+  display: flex;
+  justify-content: center; }
+
+header .header__bg {
+  padding: 20px; }
+
+header .header__content {
+  padding: 20px;
+  text-align: center; }
+
+header .header__content h2 {
+  font-size: 30px;
+  line-height: 39px; }
+
+header .header__content p {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 49px;
+  color: #7F7F7F;
+  margin-bottom: 10px; }
+
+header .header__content button {
+  background-color: #1078AD;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  width: 100%;
+  font-size: 32px;
+  font-weight: bold; }
+
+header .header__content button:hover {
+  background-color: #479ec9; }
+
+.symptome__para {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5%;
+  color: #1078AD; }
+
+.symptome__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.symptome__container--size {
+  width: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  text-align: center; }
+
+.caption {
+  font-family: Cairo;
+  font-size: 1.5em;
+  font-weight: 900; }
+
+.suggestions__title {
+  font-family: cairo;
+  font-size: 2.5em;
+  text-align: center;
+  color: #1078AD; }
+
+.caption {
+  display: block; }
 
 .recommand {
   background-color: #1078AD;
