@@ -196,6 +196,21 @@ header .header__content button:hover {
     text-align: center;
     width: 77px;
     height: 59px; }
+    .Demarer{
+      width: 177px;
+      border: none;
+      margin: 0;
+      text-align: center;
+      background: #056ba1;
+      color:white;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 24px;
+      padding: 7px 55px;
+      border-radius: 4px;
+      text-decoration: none;
+      
+     }
+
 
 .ac-footer__imag {
   text-align: center;

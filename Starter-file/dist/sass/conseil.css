@@ -330,9 +330,22 @@ nav .nav__list .nav__list--button img {
 }
 
 .recommand__contact a {
-  color: #fff;
+  color: #fff !important;
   border-bottom: 2px solid #F4CF1B;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.recommand .Demarer {
+  width: 177px;
+  border: none;
+  margin: 0;
+  text-align: center;
+  background: #1087c7;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+  padding: 5px 83px;
+  border-radius: 8px;
 }
 
 .recommand__part {

@@ -321,13 +321,28 @@ $styleline : 'Cairo', serif;
         }
 
         a{
-         color: #fff; 
+         color: #fff !important; 
          border-bottom: 2px solid #F4CF1B;
-         text-decoration: none;
+         text-decoration: none !important;
+        
 
          }
 
      }
+     .Demarer{
+      width: 177px;
+      border: none;
+      margin: 0;
+      text-align: center;
+      background: #1087c7;
+      color:white;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 24px;
+      padding: 5px 83px;
+      border-radius: 8px;
+     }
+    
+     
 
 
      &__part {
@@ -366,7 +381,7 @@ $styleline : 'Cairo', serif;
         }
     }
 } 
-    // gahsfdk //
+
     .ac-footer__imag{
         text-align: center;
         background-color: white;
